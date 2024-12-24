@@ -1,0 +1,19 @@
+<!-- signup.component.html -->
+<form (ngSubmit)="onSignup()">
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" [(ngModel)]="email" name="email" required />
+  </div>
+
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" [(ngModel)]="password" name="password" required />
+  </div>
+
+  <div>
+    <label for="confirmPassword">Confirm Password</label>
+    <input type="password" id="confirmPassword" [(ngModel)]="confirmPassword" name="confirmPassword" required />
+  </div>
+
+  <button type="submit">Sign Up</button>
+</form>

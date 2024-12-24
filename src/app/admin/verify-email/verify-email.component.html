@@ -1,0 +1,10 @@
+<div *ngIf="isEmailVerified; else notVerified">
+  <h3>Your email has been verified!</h3>
+  <p>Thank you for verifying your email address.</p>
+</div>
+
+<ng-template #notVerified>
+  <h3>Email not verified</h3>
+  <p>Your email address is not verified. Please check your inbox for the verification email.</p>
+  <button (click)="resendVerificationEmail()">Resend Verification Email</button>
+</ng-template>

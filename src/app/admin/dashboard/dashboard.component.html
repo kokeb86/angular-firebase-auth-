@@ -1,0 +1,22 @@
+<div class="dashboard-container">
+  <h1>Registered Users</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Invite Code</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let user of users; let i = index">
+      <td>{{ i + 1 }}</td>
+      <td>{{ user.name }}</td>
+      <td>{{ user.email }}</td>
+      <td>{{ user.inviteCode }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
