@@ -15,13 +15,12 @@ export const environment = {
   },
   socialAuthEnabled: true,
   firebase:{
-              apiKey: "AIzaSyBZ0gx8cny0z8hNGAw_V-43o8m0I-vjDyg",
-                  authDomain: "tenant-based-app.firebaseapp.com",
-                  projectId: "tenant-based-app",
-                  storageBucket: "tenant-based-app.firebasestorage.app",
-                  messagingSenderId: "1042117894452",
-                  appId: "1:1042117894452:web:ded11d345b3164f6cac561",
-                  measurementId: "G-37VCGCCCEY"
+            apiKey: "your-api-key",
+                authDomain: "your-auth-domain",
+                projectId: "your-project-id",
+                storageBucket: "your-storage-bucket",
+                messagingSenderId: "your-messaging-sender-id",
+                appId: "your-app-id"
             }
 }
 /*
